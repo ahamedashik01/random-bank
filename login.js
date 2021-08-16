@@ -1,3 +1,4 @@
+// login to bank
 document.getElementById('log-in').addEventListener('click', function () {
     // get user email 
     const emailField = document.getElementById('user-email');
@@ -9,3 +10,4 @@ document.getElementById('log-in').addEventListener('click', function () {
         window.location.href = 'bank.html';
     }
 })
+
